@@ -37,3 +37,7 @@
 	padding-left: 110px;
 	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 }
+
+.status {
+	border-bottom: solid 1px #CCC;
+}
