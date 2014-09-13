@@ -38,6 +38,6 @@
 	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 }
 
-.status {
-	border-bottom: solid 1px #CCC;
+.btn btn-primary {
+	font-color: white;
 }

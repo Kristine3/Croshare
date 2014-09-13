@@ -5,7 +5,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-.status {
+.status.name {
 	border-bottom: solid 1px black;
 	padding: 5px 0;
+}
+
+.status .admin {
+	display: none
 }

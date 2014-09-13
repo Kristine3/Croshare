@@ -1,4 +1,4 @@
-<h1>All Statuses</h1>
+<%= link_to "Post a New Status", new_status_path, class: "btn btn-primary btn-lg active"%>
 
 <% @statuses.each do |status| %>
   <div class = "status.name">
@@ -19,5 +19,3 @@
 
 <% end %>
 
-
-<%= link_to 'New Status', new_status_path %>
