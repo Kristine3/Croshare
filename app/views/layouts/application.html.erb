@@ -8,10 +8,9 @@
 </head>
 <body>
 
-
+<div class="container">
 	<ul class="nav nav-tabs" role="tablist">
-  		<li class="active"><a href="#">Home</a></li>
-  		<li><%= link_to "Statuses", statuses_path %></li>
+  		<li><%= link_to "Home", statuses_path %></li>
   		<li><a href="#">Messages</a></li>
 	</ul>
 
@@ -21,9 +20,11 @@
 		<div class="description">Post amazing crochet, knitting and craft patterns. Share immediately with your friends.
 		</div>	
 	</p>
-
-	<br />
 	
+	<p class="notice"><%=notice%></p>
+	<p class="alert"><%=alert%></p>
+
+	</div>
 
 	<div class="container">
 		<%= yield %>

@@ -17,9 +17,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-.nav-tabs {
-	padding-left: 110px;
-}
+
 
 .bg-primary {
 	height: 80px; 
@@ -28,16 +26,14 @@
 
 .big-title {
 	font-size: 60px; 
-	padding-left: 110px;
 	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 }
 
 .description {
 	font-size: 20px; 
-	padding-left: 110px;
 	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 }
 
-.btn btn-primary {
-	font-color: white;
+.btn {
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 }
